@@ -1,0 +1,11 @@
+﻿@model Human
+@{
+    ViewData["Title"] = "SignForm";
+}
+
+<form method="post">
+    <input asp-for="FirstName" placeholder="Name" />
+    <input asp-for="LastName" placeholder="Last Name"/>
+    <button>Submit</button>
+</form>
+
